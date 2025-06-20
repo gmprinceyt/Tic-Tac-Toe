@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h4>Tic Toc Game <i style="font-size: 10px;">Prince Shah</cit></h4>
+      <p id="turn">Player Turn: ✅</p>
+      <div class="buttons">
+        <button id="0"></button>
+        <button id="1"></button>
+        <button id="2"></button>
+        <button id="3"></button>
+        <button id="4"></button>
+        <button id="5"></button>
+        <button id="6"></button>
+        <button id="7"></button>
+        <button id="8"></button>
+      </div>
+      <span id="result"></span>
+      <br />
+      <br />
+      <button id="reset">New Game</button>
+      <!-- Game Over Modal -->
+      <div class="modal">
+        <div class="modal-content">
+          <h2 id="modal-message"></h2>
+          <button class="close-btn">OK</button>
+        </div>
+      </div>
+
+
+      <audio id="click-sound" src="click.wav"></audio>
+<audio id="win-sound" src="win.wav"></audio>
+<audio id="draw-sound" src="draw.wav"></audio>
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
