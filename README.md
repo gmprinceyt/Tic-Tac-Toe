@@ -71,4 +71,39 @@ A simple, interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Enj
 
 ---
 
-Enjoy playing!
+## Getting Started
+
+Follow these steps to run the Tic-Tac-Toe game on your local machine:
+
+### 1. Clone the Repository
+
+Open your terminal and run:
+
+```bash
+git clone https://github.com/gmprinceyt/Tic-Tac-Toe.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd tic-tac-toe
+```
+
+### 3. Add Sound Files
+
+Make sure the following sound files are present in the project directory:
+- `click.wav`
+- `win.wav`
+- `draw.wav`
+
+If they are missing, add your own or download suitable `.wav` files and place them in the root folder.
+
+### 4. Open the Game
+
+Double-click the `index.html` file, or open it in your web browser.
+
+Alternatively, you can right-click `index.html` and select **Open with** > **Your Browser**.
+
+---
+
+Now you’re ready to enjoy playing!
